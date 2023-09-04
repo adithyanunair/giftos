@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-body{
+    padding: 0 45px !important;
+}
+.nav-list{
+    color: black !important;
+    margin: 0 10px;
+}
+.nav-list:hover{
+    background-color: rgb(231, 191, 191);
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-login{
+    color: black !important;
+    margin-left: 0;
+    padding-left: 0;
+}
+.carousel-bg{
+    background-color: rgb(249, 145, 163);
+    padding: 70px 0;
+    border-radius: 0 0 15px 15px ;
+}
+.carousel-img{
+    display: flex ;
+    justify-content: center;
+}
+
+
+.carousel-p p{
+    color: white;
+}
+.carousel-p button{
+    width: 170px;
+    height: 45px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 81, 110);
+    color: white;
+}
+.heading{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 50px;
+}
+.card-8{
+    margin-bottom: 25px;
+}
+.card-8-body{
+    width: 100%;
+    position: relative;
+    padding: 50px 5px 10px 5px;
+}
+.card-img{
+    width: 100%;
+    text-align: center;
+}
+.card-img img{
+    max-width: 100%;
+    max-height: 145px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.price span{
+    color: rgb(255, 110, 135);
+}
+.new{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-m{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.btn{
+    background-color: rgb(255, 81, 110);
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+.box-p{
+    color: white;
+}
+.btn-2{
+    margin-top: 45px;
+}
+.btn-r1{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    background-color: #009dff;
+    margin-right: 10px;
+}
+.btn-r1:hover{
+    background-color: transparent;
+    color: #009dff;
+    border: 1px solid #009dff;
+}
+.btn-r2{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    background-color: white;
+}
+.btn-r2:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.box-img{
+    width: 100%;
+}
+.d-box{
+    text-align: center;
+    margin: 10px;
+}
+.d-box span{
+    color: rgb(62, 40, 82);
+    font-size: 80px;
+}
+.box-2{
+    margin-top: 40px;
+    padding-top: 45px;
+    background-color: #6929a5;
+    border-radius: 15px;
+}
+.btn-b2{
+    margin-top: 45px;
+}
+.btnb-r1{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    background-color: white;
+    margin-right: 10px;
+}
+.btnb-r1:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.btnb-r2{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    background-color: #bf7ffb;
+    color: white;
+}
+.btnb-r2:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.map{
+    width: 100%;
+}
+.inp{
+    width: 90%;
+    height: 50px;
+    margin: 20px 0;
+}
+.inp::placeholder{
+    padding-left: 25px;
+    color: black;
+}
+.sms{
+    width: 90%;
+    height: 150px;
+    margin: 20px 0;
+}
+.sms::placeholder{
+    color: black;
+    padding-left: 25px;
+}
+.inp-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inp-btn button{
+    background-color: rgb(255, 105, 130);
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: 0;
+}
+.footer-b{
+    padding: 50px 50px;
+    color: white;
+}
+.s-btn{
+    text-align: center;
+}
+.fa{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    margin: 15px 5px;
+}
+.sub{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(203, 135, 146);
+    color: white;
+    border: 0;
+}
+
+.footer-p p{
+    padding: 0;
+    margin: 0;
+}
+.footer-p span{
+    font-size: large;
+}
+.footer-l{
+    margin: 30px 0 0 0;
+    width: 80%;
+    border-top: 1px solid white;
+    text-align: center;
+}
+.footer-l h6{
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+.tc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l-btn, .r-btn{
+    height: 120px;
+    width: 30px;
+    border: 0;
+    background-color: rgb(255, 105, 130);
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.tc-body{
+    padding: 25px;
+    box-shadow: 0 0 5px 0 rgb(134, 134, 134);
+}
+.tc-body h3{
+    color:  rgb(255, 105, 130);
+}
+.tc-body h4{
+    color: rgb(141, 141, 141);
+}
+@media (min-width:992px) {
+    .brand-h{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        color: black;
+        margin: 15px 0px;
+    }
+    .nav-bar{
+        background-color: rgb(239, 219, 222) !important;
+        border-radius: 15px 15px 0 0;
+    }
+    .c-items{
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-p h1{
+        color: white;
+        font-weight: bolder;
+        font-size: 60px;
+    }
+    .brand-head{
+        display: none;
+    }
+    .carousel-p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        padding-left: 180px;
+    }
+    .c-img{
+        width: 40%;
+    }
+    .box{
+        background-color: #7fd7eb;
+        padding-top: 45px;
+        border-radius: 15px;
+    }
+    .box-right{
+        display: flex;
+        align-items: center;
+    }
+    .box-p{
+        width: 90%;
+        color: white;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991.98px){
+    .brand-head{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        color: black;
+    }
+    .nav-bar{
+        background-color: white!important;
+    }
+    .brand-h{
+        display: none;
+    }
+    .carousel-p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        padding-left: 140px;
+    }
+    .carousel-p h1{
+        color: white;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    .box{
+        background-color: #7fd7eb;
+        padding: 45px 10px 40px 10px;
+        border-radius: 15px;
+    }
+    .box-2{
+        padding: 55px 0 45px 0;
+    }
+}
+@media (min-width:300px) and (max-width:767.98px) {
+    .carousel-p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 100px 25px 100px;
+    }
+    .carousel-p h1{
+        color: white;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .box{
+        background-color: #7fd7eb;
+        padding: 45px 10px 40px 10px;
+        border-radius: 15px;
+    }
+    .box-2{
+        padding: 45px 10px 40px 10px;
+    }
+}
